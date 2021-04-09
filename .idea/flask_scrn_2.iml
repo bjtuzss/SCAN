@@ -11,6 +11,8 @@
       <sourceFolder url="file://$MODULE_DIR$/SCAN_master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SCAN_master/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SCAN_master/results" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SCAN_master/gt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SCAN_master/pths" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

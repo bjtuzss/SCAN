@@ -537,6 +537,6 @@ class SCRN(nn.Module):
         return output, pred_e
 
     def initialize_weights(self):
-        # res50 =  torchvision.models.resnet50(pretrained=True)
-        # self.resnet.load_state_dict(res50.state_dict(), False)
-        self.resnet.load_state_dict(torch.load('SCAN_master/model/resnet50.pth'), False)
+        res50 =  torchvision.models.resnet50(pretrained=True)
+        self.resnet.load_state_dict(res50.state_dict(), False)
+        # self.resnet.load_state_dict(torch.load('/resnet50.pth'), False)
